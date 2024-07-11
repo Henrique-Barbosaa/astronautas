@@ -256,5 +256,7 @@ int main() {
         }
     } while(abrirMenu == 1);
 
+    astronautas.limpar();
+    voos.limpar();
     return 0;
 }
